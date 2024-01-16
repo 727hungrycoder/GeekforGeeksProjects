@@ -81,7 +81,7 @@ def factorial(n):
         
         
         
-num = 5
+num=5
 
 print(factorial(num))
             

@@ -1,3 +1,10 @@
 {
-    "workbench.settings.openDefaultSettings": false
+    "workbench.settings.openDefaultSettings": true,
+    "workbench.settings.useSplitJSON": false,
+    "python.analysis.typeCheckingMode": "basic",
+    "python.linting.pylintEnabled": true,
+    "python.languageServer": "Pylance",
+    "python.linting.pylintArgs": [
+        "--errors-only"
+    ],
 }

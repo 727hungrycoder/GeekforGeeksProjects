@@ -224,14 +224,15 @@ def move_up(grid):
 
 	# to move up we just take
 	# transpose of matrix
-	new_grid = transpose(grid)
+	new_grid = transpose(grid
+                      )
 
 	# then move left (calling all
 	# included functions) then
 	new_grid, changed = move_left(new_grid)
 
 	# again take transpose will give
-	# desired results
+	# desired result
 	new_grid = transpose(new_grid)
 	return new_grid, changed
 
